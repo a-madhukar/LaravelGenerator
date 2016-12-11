@@ -29,7 +29,7 @@ if(len(sys.argv[1:]) == 1):
 	make_laravel_project()
 elif len(sys.argv[1:]) > 1: 
 	print "You provided way too many arguments. Please provide a name for your project."
-else : 
+else: 
 	print "You haven't provided a project name."
 
 
